@@ -2,6 +2,8 @@ const express = require('express');
 const morgan = require('morgan');
 const app = express();
 
+const {mongoose} = require('./database');
+
 //settings
 app.set('port', process.env.PORT || 3000);
 
@@ -10,6 +12,7 @@ app.use(morgan('dev'));
 app.use(express.json()); // Anteriormente se utilizaba body parser
 
 //Routes
+app.use('/api/employees', require('./routes/employee.routes'));
 
 
 // Starting the server
