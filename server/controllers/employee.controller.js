@@ -17,15 +17,15 @@ employeeCtrl.createEmployee = async (req, res) => {
 
 employeeCtrl.getEmployee = function () {
         
-}
+};
 
 employeeCtrl.editEmployee = function () {
         
-}
+};
 
 employeeCtrl.deleteEmployee = function () {
         
-}
+};
 
 
 module.exports = employeeCtrl;
