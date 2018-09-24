@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 //Agregados manualmente
 import { FormsModule} from '@angular/forms'; 
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { EmployeesComponent } from './components/employees/employees.component';
